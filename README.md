@@ -8,11 +8,11 @@ You will need to install the following tools:
 - PostMan - (http://www.getpostman.com/)
 
 ### SETUP / INSTALL:
-- Follow instruction to install Node.js, pay attention to permissions
-- Follow instruction to install MongoDB, pay attention to permissions
-- Follow instruction to install PostMan
+- Follow instructions to install Node.js, pay attention to permissions
+- Follow instructions to install MongoDB, pay attention to permissions
+- Follow instructions to install PostMan
 
-To install project dependencies open a console and run the following:
+To install project dependencies open a console / terminal and run the following:
 ```
 npm install
 ```
@@ -23,17 +23,17 @@ Start the MongoDB database by opening a new console / terminal tab and run:
 mongod
 ```
 
-Start the serer by opening a new console / terminal tab and run:
+Start the server by opening a new console / terminal tab and run:
 ```
 node server.js
 ```
 
 ### USE APP (Steps):
-1: In web browser navigate to: (http://localhost:3000) 
+1: In a web browser navigate to: (http://localhost:3000) 
 ```
 Should receive: Hello! This is a base non-secure non-API route
 ```
-2: In web browser navigate to: (http://localhost:3000/usersetup) 
+2: In a web browser navigate to: (http://localhost:3000/usersetup) 
 ```
 Should receive: {"success":true}
 ```
@@ -46,7 +46,7 @@ Should receive: {"success":true}
 
 4: Copy the token for use in Step 5 below.
 
-5: in web browser navigate to:
+5: In a web browser navigate to:
 ```
 http://localhost:3000/api/users?token=<token from Step 4>
 ```		
@@ -62,7 +62,7 @@ Should receive:
 ```
 
 ### NEXT STEPS:
-Navigate to https://github.com/dantullis/node_express_jwt_2 for the next steps on building on top of this project.
+Navigate to https://github.com/dantullis/node_express_jwt_2 for the next steps building on top of this project.
 
 ### CREDITS: 
 These projects will build on parts of the fine work found in the following places:
