@@ -29,10 +29,14 @@ node server.js
 ```
 
 ### USE APP (Steps):
-1: In web browser navigate to: http://localhost:3000 
-- Should receive: Hello! This is a base non-secure non-API route
-2: In web browser navigate to: http://localhost:3000/usersetup 
-- Should receive: {"success":true}
+1: In web browser navigate to: (http://localhost:3000) 
+```
+Should receive: Hello! This is a base non-secure non-API route
+```
+2: In web browser navigate to: (http://localhost:3000/usersetup) 
+```
+Should receive: {"success":true}
+```
 3: Now use PostMan to authenticate by doing the following:
 
 ..1 Change HTTP request from GET to POST
@@ -53,9 +57,9 @@ http://localhost:3000/api/users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyIkX
 ```
 
 Should receive:
-''' 
+``` 
 ..*[{"_id":"56ecc924113484d902174552","userName":"Test Cerminara","userPassword":"testPassword","__v":0,"isAdmin":true},{"_id":"56eccd1f8a8165e3021a88f1","userName":"Test User","userPassword":"testPassword","__v":0,"isAdmin":true}]
-'''
+```
 
 ### NEXT STEPS:
 Navigate to https://github.com/dantullis/node_express_jwt_2 for the next steps on building on top of this project.
