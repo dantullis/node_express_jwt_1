@@ -39,10 +39,10 @@ Should receive: {"success":true}
 ```
 3: Now use PostMan to authenticate by doing the following:
 
-..1 Change HTTP request from GET to POST
-..2 In the BODY choose x-www-form-urlencoded radio button
-..3 Enter a userName key and value <userName><Test User>
-..4 Enter a userPassword key and value <userPassword><testPassword> 
+..1. Change HTTP request from GET to POST
+..2. In the BODY choose x-www-form-urlencoded radio button
+..3. Enter a userName key and value <userName><Test User>
+..4. Enter a userPassword key and value <userPassword><testPassword> 
 
 4: Copy the token for use in Step 5 below.
 
