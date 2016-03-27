@@ -58,7 +58,7 @@ http://localhost:3000/api/users?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyIkX
 
 Should receive:
 ``` 
-..*[{"_id":"56ecc924113484d902174552","userName":"Test Cerminara","userPassword":"testPassword","__v":0,"isAdmin":true},{"_id":"56eccd1f8a8165e3021a88f1","userName":"Test User","userPassword":"testPassword","__v":0,"isAdmin":true}]
+..*[{"_id":"56eccd1f8a8165e3021a88f1","userName":"Test User","userPassword":"testPassword","__v":0,"isAdmin":true}]
 ```
 
 ### NEXT STEPS:
